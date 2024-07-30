@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------- End of CSS Reset ------------- */
+
+
+/* ________________________________________________ */
+
+
+/* ------------- Beginning of AV CSS ------------- */
+
+:root {
+  font-size: 16px;
+/* Add colors, etc. */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main DOM Elements */
+
+body {
+  font-family: sans-serif;
+}
+
+/* Containers */
+
+.container-xsm {
+  max-width: 375px;
+}
+
+.container-sm {
+  max-width: 512px;
+}
+
+.container-md {
+  max-width: 768px;
+}
+
+.container-lg {
+  max-width: 1024px;
+}
+
+.container-xl {
+  max-width: 1280px;
+}
+
+.container-2xl {
+  max-width: 1440px;
+}
+
+/* Margins */
+
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+/* Padding */
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.padding-2 {
+  padding: 2rem;
+}
+
+.padding-3 {
+  padding: 3rem;
+}
+
+.padding-4 {
+  padding: 4rem;
+}
+
+.padding-top-bottom-2 {
+  padding: 2rem 0;
+}
+
+/* Font size */
+
+.font-size-xsm {
+  font-size: .8rem;
+  line-height: 1.25rem;
+}
+
+.font-size-sm {
+  font-size: .9rem;
+  line-height: 1.35rem;
+}
+
+.font-size-base {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.font-size-md {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-size-lg {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-size-xl {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+
+.font-size-2xl {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+
+.font-size-3xl {
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+}
+
+.font-size-4xl {
+  font-size: 2.75rem;
+  line-height: 3.25rem;
+}
+
+/* Font weight */
+
+.font-weight-thin {
+  font-weight: 100;
+}
+
+.font-weight-xlight {
+  font-weight: 200;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-xbold {
+  font-weight: 800;
+}
+
+.font-weight-black {
+  font-weight: 900;
+}
+
+/* Font styles */
+
+/* Font colors */
+
+.color-red {
+  color: #ff0000;
+}
